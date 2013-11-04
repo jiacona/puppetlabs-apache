@@ -124,6 +124,8 @@ define apache::vhost(
     $ensure                      = 'present',
     $wsgi_daemon_process         = undef,
     $wsgi_daemon_process_options = undef,
+    $wsgi_import_script          = undef,
+    $wsgi_import_script_options  = undef,
     $wsgi_process_group          = undef,
     $wsgi_script_aliases         = undef,
     $custom_fragment             = undef,

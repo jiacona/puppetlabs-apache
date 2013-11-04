@@ -1,6 +1,7 @@
 class apache::mod::wsgi (
   $wsgi_socket_prefix = undef,
   $wsgi_python_home   = undef,
+  $wsgi_python_optimization = undef,
 ){
   apache::mod { 'wsgi': }
 
